@@ -1,0 +1,91 @@
+html{
+  font-family : "Times New Roman", Times, serif;
+
+}
+
+
+div.page{
+
+  display : flex;
+
+}
+
+div.bando{
+    display : flex;
+    object-position: left bottom;
+    writing-mode: vertical-rl;
+    text-orientation: sideways-left;
+    bottom: 0;
+}
+div.text_bando{
+  transform: rotate(180deg);
+}
+em{
+font-weight: bold;
+color: #00008B;
+font-style : normal;
+}
+
+.vertical-rotate{
+  text-orientation : sideways-right;
+}
+
+
+div.info{
+
+  display : flex;
+}
+div.1{
+  object-position: left ;
+}
+
+div.3{
+  object-position: right ;
+}
+div.haut{
+
+  display : flex;
+}
+
+div.milieu{
+
+  display : flex;
+}
+div.femme{
+  display: flex;
+}
+div.img1{
+    display: flex;
+}
+div.img2{
+    display: flex;
+}
+div.img3{
+    display: flex;
+}
+div.bas{
+    display: flex;
+}
+
+div.entete{
+  background-color : #00008B;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+
+
+}
+div.text{
+  margin: 1em;
+  padding: : 10em;
+  font-size: 22px;
+}
+div.t2{
+  font: italic smaller sans-serif;
+  bottom:0;
+  margin: 1em;
+  text-orientation: sideways-right;
+display: flex;
+object-position: left bottom;
+writing-mode: vertical-rl;
+transform: rotate(180deg);
