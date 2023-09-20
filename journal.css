@@ -10,9 +10,19 @@ div.page{
 
 }
 
+div.haut_droit{
+  height: auto;
+  width: 500px;
+  font-size : 2em;
+}
+div.text_haut{
+  font-size : 1em;
+
+}
+
 div.bando{
     display : flex;
-    object-position: left bottom;
+    align-content: space-between;
     writing-mode: vertical-rl;
     text-orientation: sideways-left;
     bottom: 0;
@@ -72,6 +82,10 @@ div.entete{
   text-align: center;
   color: white;
   font-weight: 800;
+  font-style: italic;
+  height: auto ;
+  width: 500px;
+
 
 
 }
